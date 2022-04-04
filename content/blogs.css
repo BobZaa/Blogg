@@ -1,0 +1,28 @@
+main {
+    min-height: 100vh;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 13px solid #F0FFF0;
+    border-right: 13px solid #F0FFF0;
+    padding: 0;
+}
+
+.blog-post {
+    /* margin: 1.7rem 0; */
+    padding: 1.5rem 2rem;
+    width: 65ch;
+    border-bottom: 13px solid #F0FFF0;
+}
+
+.blog-post > h1 {
+    font-size: 3.5ch;  
+    /* margin-top:-2.0rem; */
+
+}
+
+.date {
+    font-weight: 400;
+}
+

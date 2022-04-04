@@ -1,0 +1,56 @@
+/* To whomever may find this  /*
+/* When I wrote this CSS only God and I knew how it works  /*
+/* Now, only God knows it. /*
+/* Therefore if you are trying to optimize the code and it fails (it will) /*
+/* Please increase this counter as a warning for the next person  /*
+
+/* Total hours wasted here: 200 */
+
+
+* {
+    margin: 0;
+    font-family: motiva-sans;
+}
+
+body {
+    background-color: #252035;    
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    place-items: start center;
+    width: 100%;
+}
+
+nav, main {
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 20pt;
+    color: #F0FFF0;   
+}
+
+nav {
+    min-height: 100vh;
+    width: max-content;
+    background-color: #43374A;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;     
+}
+
+nav > a {
+    display: block;
+    font-size: 22pt;
+    color: #B6C7FA;
+    text-decoration: none transparent;
+    font-weight: 200;
+    padding-top: 10px;     
+}
+
+nav > a:hover {
+    color: #F0FFF0;
+    font-weight:500;  
+}
+
+nav > h1 {
+    text-align:center;
+}
+

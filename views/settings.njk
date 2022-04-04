@@ -1,0 +1,19 @@
+{% extends "template/base.njk" %}
+
+{% block head %}
+    <title>Settings</title>
+    <link rel="icon" type="image/x-icon" href="gear.ico">
+    <link rel="stylesheet" href="/content/settings.css">
+{% endblock %}
+
+{% block main %}
+    <form action="/posts" method="post">
+        <h2>Create post!</h2>
+        <a href="/">Back!</a>
+        <label class="label" for="post-text">Write your post here:</label>
+        <input type="text" name="title" class="title"></input>
+        <textarea class="form" name="post-text" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send post!"> 
+    </form>
+{% endblock %}
+</html>

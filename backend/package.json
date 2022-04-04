@@ -1,0 +1,24 @@
+{
+  "name": "blogg",
+  "version": "1.0.0",
+  "description": "en blogg",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobZaa/Blogg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BobZaa/Blogg/issues"
+  },
+  "homepage": "https://github.com/BobZaa/Blogg#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "nunjucks": "^3.2.3"
+  }
+}

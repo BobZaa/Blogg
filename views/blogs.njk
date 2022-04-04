@@ -1,0 +1,15 @@
+{% extends "template/base.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/content/blogs.css">    
+{% endblock %}
+
+{% block main %}   
+    <main>
+        {% for post in posts %}
+            <div class="blog-post">
+                {% include "posts/" + post %}
+            </div>
+        {% endfor %}
+    </main>
+{% endblock %}

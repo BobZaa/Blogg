@@ -1,0 +1,24 @@
+a, h2, .label {
+    color: #F0FFF0;
+}
+
+a:hover {
+    color: #B6C7FA;    
+}
+
+h2, .label, .form, .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    resize: none;
+    display: flex;
+    padding: 0,0625rem;
+
+
+}
+
+.title {
+    width: 20rem;
+}
